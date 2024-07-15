@@ -3,6 +3,10 @@
   margin-top: 10px;
 }
 
+.selec-hov {
+  color: "#ffff";
+}
+
 .hov:hover {
   background-color: gainsboro;
   cursor: pointer;

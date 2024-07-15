@@ -7,7 +7,7 @@ const ChatContext = createContext();
 const ChatProvider = ({ children }) => {
   const [user, setUser] = useState();
   const [theme, setTheme] = useState("light");
-  const [selectedChat, setSelectedChat] = useState();
+  const [selectedChat, setSelectedChat] = useState([]);
   const [chat, setChat] = useState([]);
   const [notification, setNotification] = useState([]);
 
@@ -34,8 +34,6 @@ const ChatProvider = ({ children }) => {
         setNotification,
         theme,
         setTheme,
-        loggedIn,
-        setLoggedIn,
       }}
     >
       {children}
