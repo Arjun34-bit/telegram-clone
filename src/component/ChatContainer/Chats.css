@@ -1,0 +1,10 @@
+.hov {
+  /* margin-right: 100px; */
+  margin-top: 10px;
+}
+
+.hov:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+  border-radius: 10px;
+}

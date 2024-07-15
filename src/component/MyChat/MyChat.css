@@ -1,0 +1,37 @@
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Border for more glassy effect */
+  padding: 20px; /* Padding inside the element */
+  width: "100%";
+}
+
+.gap {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust gap between icon and text */
+}
+
+.scroll-container {
+  height: 800px; /* Set the desired height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow-x: hidden;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px; /* Width of the entire scrollbar */
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 10px; /* Roundness of the thumb */
+  border: 3px solid #f1f1f1; /* Padding around the thumb */
+}
